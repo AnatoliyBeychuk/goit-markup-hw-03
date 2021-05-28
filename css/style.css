@@ -67,7 +67,7 @@ a {
   height: 31px;
 }
 
-.logo.footer {
+.address-box .logo {
   margin-right: 0;
 }
 
@@ -127,13 +127,10 @@ a {
 /* Hero */
 
 .hero {
-  text-align: center;
-  background-color: var(--hero-background-color);
-}
-
-.container.hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
+  background-color: var(--hero-background-color);
 }
 
 .hero .title {
@@ -164,7 +161,7 @@ a {
 
 /* advantage (Наши преимущества) */
 /* !!! */
-.container.advantage {
+.advantage {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -204,7 +201,7 @@ a {
 
 /* we-doing (Чем занимаемся) */
 
-.container.we-doing {
+.we-doing {
   padding-bottom: 94px;
 }
 
@@ -238,12 +235,9 @@ a {
 /* our-team (Наша команда) */
 
 .our-team {
-  background-color: var(--button-no-active-background);
-}
-
-.container.our-team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--button-no-active-background);
 }
 
 .our-team-list {
@@ -261,7 +255,6 @@ a {
 
 .team-item .image {
   display: block;
-  margin-bottom: 30px;
 }
 
 .our-team .title {
@@ -285,7 +278,6 @@ a {
 }
 
 .team-item .text {
-  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -294,17 +286,21 @@ a {
   color: var(--primary-text-color);
 }
 
+.team-item .content {
+  padding: 30px;
+}
+
 /* footer */
 
-.footer-container {
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--footer-background-color);
 }
 
-.container.footer {
+.address-box {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address {
